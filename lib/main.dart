@@ -24,7 +24,8 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Fetch Data',
+      debugShowCheckedModeBanner:false,
+      title: 'Fetching Data from Api',
       theme: ThemeData(
         primaryColor: Colors.lightBlueAccent,
       ),
